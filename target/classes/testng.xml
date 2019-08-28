@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Nomenclature Application Test Automation Test Suite">
+
+	<listeners>
+		<listener class-name= "ca.gc.pch.test.nomenclature.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+	<test name="Nomenclature App Test Cases">
+		<classes>
+			<class name="ca.gc.pch.test.nomenclature.testcases.BrowsePageTest"></class>
+		</classes>
+	</test>
+</suite>
