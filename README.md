@@ -88,8 +88,10 @@ Workflows > Pages > Navigation/UI Utilities > Selenium
 Example of Workflows: In a E-Commerce website, customer orders an item (Go to this page > add to cart > go to checkout page).
                       Instead of having multiple, small tests, its better to have a workflow called .customerOrdersItem().
 
-Workflows are built on top of your pages, might be actions that require to interact with multiple pages.    
+Workflows are built on top of your pages, might be actions that require to interact with multiple pages.  
+
 Pages represent every individual page of the Web App.  
+
 Navigation/UI Utilities class to make it easier to navigate around your app.  
 
 ## TestNG Plugin
