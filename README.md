@@ -13,7 +13,10 @@ A FRAMEWORK is set of protocols, rules, standards and guidelines incorporated to
 - Expandable test suite
 
 ## Nomenclature Automation Framework
-This Test Automation Framework implements the Page Object Model (Design Pattern) using Page Factory. The idea is to represent each individual page of the application using a Java class. The latter contains WebElement locators, also called OR (Object repository -- a collection of all WebElements), and methods for each feature of that particular page. In order to support the Page Object pattern, Selenium's library contains a factory class called "Page Factory". This class contains a method .initElement() to initialize all WebElements a Page Object.
+This Test Automation Framework implements the Page Object Model (Design Pattern) using Page Factory. 
+The idea is to represent each individual page of the application using a Java class. The latter contains WebElement locators, also called OR (Object repository -- a collection of all WebElements), and methods for each feature of that particular page.
+In order to support the Page Object pattern, Selenium's library contains a factory class called "Page Factory". 
+This class contains a method .initElement() to initialize all WebElements a Page Object.
 
 ### Separating Tests and Framework
 Clean code is essential to the success of an automation framework.
@@ -33,7 +36,8 @@ Page Object Model is also called Page Chaining Model, because each of the pages 
 #### Layer 1: Base Layer (TestBase.java)
 This class is the parent class of all layers (PageLibrary and TestNG) in the Framework. All the classes in Page and Test Packages extend TestBase.java
 TestBase.java contains all the initialization steps i.e. the WebDriver, configurations (properties), implicit/explicit waits, pageLoadTimeOut, actions, maximize_window(), deleteAllCookies(), get(url), etc.
-This class define the common (repeated) properties/methods ONCE which will be used by all of your pages and your test classes. In fact,every class in the framework needs to set up a WebDriver, implicit/explicit wait, maximize_window(), get(url), etc.
+This class define the common (repeated) properties/methods ONCE which will be used by all of your pages and your test classes. 
+In fact, every class in the framework needs to set up a WebDriver, implicit/explicit wait, maximize_window(), get(url), etc.
 We use the concept of INHERITANCE to pass all those methods/properties from the BASE CLASS to all the CHILD CLASSES.
 The same WebDriver, waits, actions, properties file will be shared among all pages, tests and utilities (code reused at its full potential).
 
@@ -77,8 +81,10 @@ Common properties
 
 ### Framework Architecture
 Workflows > Pages > Navigation/UI Utilities > Selenium
+
 Example of Workflows: In a E-Commerce website, customer orders an item (Go to this page > add to cart > go to checkout page).
                       Instead of having multiple, small tests, its better to have a workflow called .customerOrdersItem()
+
 Workflows are built on top of your pages, might be actions that require to interact with multiple pages. 
 Pages represent every individual page of the Web App.
 Navigation/UI Utilities class to make it easier to navigate around your app
