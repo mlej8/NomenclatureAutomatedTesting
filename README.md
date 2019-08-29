@@ -10,7 +10,7 @@ A FRAMEWORK is set of protocols, rules, standards and guidelines incorporated to
 - Increase code re-usability
 - Ease of script maintenance
 - Better code readability
-- Expandable test suite
+- Expandability
 
 ## Nomenclature Automation Framework
 This Test Automation Framework implements the Page Object Model (Design Pattern) using Page Factory. 
