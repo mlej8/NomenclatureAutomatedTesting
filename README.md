@@ -4,7 +4,7 @@ Test Automation Framework created during my summer internship 2019
 Web Application under test: https://www.nomenclature.info/
 
 ## Framework Definitions
-An automation framework consists of the integration tools, libraries, and utilities needed to interact with the application under test.
+A test automation framework consists of the integration tools, libraries, and utilities needed to interact with the application under test.
 
 A FRAMEWORK is set of protocols, rules, standards and guidelines incorporated to organize your code/project in order to:
 - Increase code re-usability
