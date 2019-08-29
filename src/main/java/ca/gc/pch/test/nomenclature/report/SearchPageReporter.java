@@ -18,7 +18,7 @@ import ca.gc.pch.test.nomenclature.util.TestUtil;
 
 public class SearchPageReporter extends TestBase {
 	    
-	private SearchPage searchPage = new SearchPage();
+	private SearchPage searchPage = new SearchPage("");
 	private static String keyword;
 	
 	private String verifySuggestionOrdered() {

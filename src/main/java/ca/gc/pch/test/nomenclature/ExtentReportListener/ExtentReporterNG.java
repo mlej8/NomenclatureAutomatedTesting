@@ -37,8 +37,7 @@ public class ExtentReporterNG implements IReporter { //implementing IReporter In
 		
 		// When we run testng.xml an extent report called "NomenclatureUITest.html" will be generated in the test-output folder
 		extent = new ExtentReports(outputDirectory + File.separator + "NomenclatureUITest.html", true); 
-									// ^ means test-output directory
-		
+										
 		for (ISuite suite : suites) {
 			Map<String, ISuiteResult> result = suite.getResults(); // getting all testing results 
 

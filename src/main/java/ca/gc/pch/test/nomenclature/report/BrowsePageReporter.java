@@ -17,7 +17,7 @@ import ca.gc.pch.test.nomenclature.util.TestUtil;
 
 public class BrowsePageReporter extends TestBase {
 
-	private BrowsePage browsePage = new BrowsePage();
+	private BrowsePage browsePage = new BrowsePage("");
 
 	public BrowsePageReporter() {}
 	
@@ -135,24 +135,12 @@ public class BrowsePageReporter extends TestBase {
 		}
 		return "The word " + keyword + " is contained in the page: " + result;
 	}
-
+	
 	public String verifySpan(String language, String keyword) {
-		/**
-		 * Method that finds a <span> tag in the right detail pane containing the
-		 * attribute @lang = "language" and returns the word.
-		 * xpath://section[@id="nomenclature-detail-content"]//descendant::span[@lang="language"]
-		 * 1st argument: language must be short form i.e. "fr" or "en" 2nd argument:
-		 * text contained in the span tag
-		 */
-		String xpath = "//section[@id=\"nomenclature-detail-content\"]//descendant::span[@lang=\"" + language
-				+ "\" and text()=\"" + keyword + "\"]";
 		String result = "OK";
-		try {
-			WebElement foreignLanguage = driver.findElement(By.xpath(xpath));
-		} catch (NoSuchElementException e) {
+		if(!this.browsePage.hasSpan(language,keyword)) {
 			this.browsePage.setbError(true);
-			result = "ERROR (Did not find keyword " + keyword + " with attribute @lang=\"" + language + "\" on "
-					+ driver.getCurrentUrl() + ")";
+			result = "ERROR";
 		}
 		return "The word " + keyword + " has attribute @lang=\"" + language + "\": " + result;
 	}
@@ -175,8 +163,7 @@ public class BrowsePageReporter extends TestBase {
 		 * Method that verifies the thumbnail is displayed after being clicked.
 		 */
 		String result = "OK";
-		String xpath = "//img[@class=\"mfp-img\" and contains(@alt,\"" + altKeyword + "\")]";
-		if (driver.findElements(By.xpath(xpath)).size() == 0){
+		if (!this.browsePage.isThumbnailClicked(altKeyword)){
 			this.browsePage.setbError(true);
 			result = "ERROR (Thumbnail is not displayed after being clicked)";
 		}

@@ -15,6 +15,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import ca.gc.pch.test.nomenclature.base.TestBase;
+import ca.gc.pch.test.nomenclature.config.UserConfiguration;
 import ca.gc.pch.test.nomenclature.util.NomenclatureUtil;
 import ca.gc.pch.test.nomenclature.util.Reporter;
 import ca.gc.pch.test.nomenclature.util.StringProcessor;
@@ -54,13 +55,21 @@ public class SearchPage extends Page {
 	@FindBy(xpath="//input[@checked=\"checked\" and contains(@id, \"preferenceForm-wordPref\")]//following::label[1]")
 	WebElement termOrder;
 	
-	public SearchPage(){
+	public SearchPage(String testURL){
 		// Initialization 
 		initialization();
-		// Let user choose testing environment and run mode
+		if(testURL.isEmpty()) {
+		// if testURL is empty, let user choose which environment and which test mode they want to run the test in.
 	    initializeUserConfigurations();
 	    this.url = this.userConfigurations.getTestEnv() + properties.getProperty("app.domain.name") + pageID;
 		driver.get(this.url);
+		} else {
+			// if testURL is specified, run test in fluent mode using the provided url
+			this.userConfigurations = new UserConfiguration();  // manually initialize UserConfigurations
+			this.url = testURL;
+			this.userConfigurations.setIsFluent(0); 			// Setting IsFluent to run tests fluently
+			driver.get(this.url);
+		}
 		PageFactory.initElements(driver, this); // initialize the WebElements using PageFatory
 	}	
 	

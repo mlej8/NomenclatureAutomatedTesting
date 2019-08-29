@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Nomenclature Application Test Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="ca.gc.pch.test.nomenclature.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Nomenclature App Test Cases(failed)">
+    <classes>
+      <class name="ca.gc.pch.test.nomenclature.testcases.BrowsePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="browsePageFRLinksTest"/>
+          <include name="cleanUp"/>
+          <include name="browsePageLinksTest"/>
+          <include name="languageToggleFRTest"/>
+        </methods>
+      </class> <!-- ca.gc.pch.test.nomenclature.testcases.BrowsePageTest -->
+    </classes>
+  </test> <!-- Nomenclature App Test Cases(failed) -->
+</suite> <!-- Failed suite [Nomenclature Application Test Automation Test Suite] -->
