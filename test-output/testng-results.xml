@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="15" passed="13" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-08-29T17:17:37Z" name="Nomenclature Application Test Automation Test Suite" finished-at="2019-08-29T17:24:43Z" duration-ms="425609">
+  <suite started-at="2019-08-29T17:39:07Z" name="Nomenclature Application Test Automation Test Suite" finished-at="2019-08-29T17:46:32Z" duration-ms="445143">
     <groups>
       <group name="Term Preferences">
         <method signature="BrowsePageTest.termPreferencesTest()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" name="termPreferencesTest" class="ca.gc.pch.test.nomenclature.testcases.BrowsePageTest"/>
@@ -36,37 +36,37 @@
         <method signature="BrowsePageTest.sortingWithAccentTest()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" name="sortingWithAccentTest" class="ca.gc.pch.test.nomenclature.testcases.BrowsePageTest"/>
       </group> <!-- Sorting -->
     </groups>
-    <test started-at="2019-08-29T17:17:37Z" name="Nomenclature App Test Cases" finished-at="2019-08-29T17:24:43Z" duration-ms="425609">
+    <test started-at="2019-08-29T17:39:07Z" name="Nomenclature App Test Cases" finished-at="2019-08-29T17:46:32Z" duration-ms="445143">
       <class name="ca.gc.pch.test.nomenclature.testcases.BrowsePageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:17:37Z" name="setUp" finished-at="2019-08-29T17:17:44Z" duration-ms="6445" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:39:07Z" name="setUp" finished-at="2019-08-29T17:39:13Z" duration-ms="5966" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="chairFRTest()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:17:44Z" name="chairFRTest" finished-at="2019-08-29T17:17:48Z" duration-ms="4509" status="PASS">
+        <test-method signature="chairFRTest()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:39:13Z" name="chairFRTest" finished-at="2019-08-29T17:39:17Z" duration-ms="4376" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chairFRTest -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:17:48Z" name="cleanUp" finished-at="2019-08-29T17:17:49Z" duration-ms="1023" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:39:17Z" name="cleanUp" finished-at="2019-08-29T17:39:18Z" duration-ms="949" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:17:49Z" name="setUp" finished-at="2019-08-29T17:17:54Z" duration-ms="4537" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:39:18Z" name="setUp" finished-at="2019-08-29T17:39:22Z" duration-ms="4173" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="languageToggleFRTest()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:17:54Z" name="languageToggleFRTest" finished-at="2019-08-29T17:17:56Z" duration-ms="2533" status="PASS">
+        <test-method signature="languageToggleFRTest()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:39:22Z" name="languageToggleFRTest" finished-at="2019-08-29T17:39:25Z" duration-ms="2483" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- languageToggleFRTest -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:17:56Z" name="cleanUp" finished-at="2019-08-29T17:17:57Z" duration-ms="1072" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:39:25Z" name="cleanUp" finished-at="2019-08-29T17:39:25Z" duration-ms="928" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:17:57Z" name="setUp" finished-at="2019-08-29T17:18:03Z" duration-ms="5235" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:39:25Z" name="setUp" finished-at="2019-08-29T17:39:30Z" duration-ms="4174" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="browsePageFRLinksTest()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:18:03Z" name="browsePageFRLinksTest" finished-at="2019-08-29T17:20:43Z" duration-ms="160762" status="FAIL">
+        <test-method signature="browsePageFRLinksTest()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:39:30Z" name="browsePageFRLinksTest" finished-at="2019-08-29T17:42:25Z" duration-ms="175244" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[ERROR: Found Broken Links expected [false] but found [true]]]>
@@ -76,7 +76,7 @@
 at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertFalse(Assert.java:65)
-at ca.gc.pch.test.nomenclature.testcases.BrowsePageTest.browsePageFRLinksTest(BrowsePageTest.java:191)
+at ca.gc.pch.test.nomenclature.testcases.BrowsePageTest.browsePageFRLinksTest(BrowsePageTest.java:197)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -108,75 +108,75 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browsePageFRLinksTest -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:20:43Z" name="cleanUp" finished-at="2019-08-29T17:20:44Z" duration-ms="1031" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:42:25Z" name="cleanUp" finished-at="2019-08-29T17:42:26Z" duration-ms="1049" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:20:44Z" name="setUp" finished-at="2019-08-29T17:20:49Z" duration-ms="5000" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:42:26Z" name="setUp" finished-at="2019-08-29T17:42:30Z" duration-ms="4471" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="chairENTest()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:20:49Z" name="chairENTest" finished-at="2019-08-29T17:20:54Z" duration-ms="4176" status="PASS">
+        <test-method signature="chairENTest()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:42:30Z" name="chairENTest" finished-at="2019-08-29T17:42:35Z" duration-ms="4718" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chairENTest -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:20:54Z" name="cleanUp" finished-at="2019-08-29T17:20:55Z" duration-ms="1023" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:42:35Z" name="cleanUp" finished-at="2019-08-29T17:42:36Z" duration-ms="987" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:20:55Z" name="setUp" finished-at="2019-08-29T17:21:00Z" duration-ms="5268" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:42:36Z" name="setUp" finished-at="2019-08-29T17:42:41Z" duration-ms="4686" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="chairThumbNailTest()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:21:00Z" name="chairThumbNailTest" finished-at="2019-08-29T17:21:03Z" duration-ms="3608" status="PASS">
+        <test-method signature="chairThumbNailTest()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:42:41Z" name="chairThumbNailTest" finished-at="2019-08-29T17:42:45Z" duration-ms="3729" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chairThumbNailTest -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:21:03Z" name="cleanUp" finished-at="2019-08-29T17:21:04Z" duration-ms="1003" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:42:45Z" name="cleanUp" finished-at="2019-08-29T17:42:46Z" duration-ms="1066" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:21:04Z" name="setUp" finished-at="2019-08-29T17:21:09Z" duration-ms="4805" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:42:46Z" name="setUp" finished-at="2019-08-29T17:42:50Z" duration-ms="4367" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="languageToggleENTest()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:21:09Z" name="languageToggleENTest" finished-at="2019-08-29T17:21:11Z" duration-ms="1469" status="PASS">
+        <test-method signature="languageToggleENTest()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:42:50Z" name="languageToggleENTest" finished-at="2019-08-29T17:42:51Z" duration-ms="1301" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- languageToggleENTest -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:21:11Z" name="cleanUp" finished-at="2019-08-29T17:21:12Z" duration-ms="998" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:42:51Z" name="cleanUp" finished-at="2019-08-29T17:42:52Z" duration-ms="1134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:21:12Z" name="setUp" finished-at="2019-08-29T17:21:16Z" duration-ms="4566" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:42:52Z" name="setUp" finished-at="2019-08-29T17:42:57Z" duration-ms="4361" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="sortingWithAccentTest()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:21:16Z" name="sortingWithAccentTest" finished-at="2019-08-29T17:21:19Z" duration-ms="3005" status="PASS">
+        <test-method signature="sortingWithAccentTest()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:42:57Z" name="sortingWithAccentTest" finished-at="2019-08-29T17:43:00Z" duration-ms="3078" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sortingWithAccentTest -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:21:19Z" name="cleanUp" finished-at="2019-08-29T17:21:20Z" duration-ms="1062" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:43:00Z" name="cleanUp" finished-at="2019-08-29T17:43:01Z" duration-ms="928" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:21:20Z" name="setUp" finished-at="2019-08-29T17:21:25Z" duration-ms="4376" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:43:01Z" name="setUp" finished-at="2019-08-29T17:43:05Z" duration-ms="4423" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="termPreferencesTest()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:21:25Z" name="termPreferencesTest" finished-at="2019-08-29T17:21:25Z" duration-ms="1" status="PASS">
+        <test-method signature="termPreferencesTest()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:43:05Z" name="termPreferencesTest" finished-at="2019-08-29T17:43:05Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- termPreferencesTest -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:21:25Z" name="cleanUp" finished-at="2019-08-29T17:21:26Z" duration-ms="1011" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:43:05Z" name="cleanUp" finished-at="2019-08-29T17:43:06Z" duration-ms="1217" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:21:26Z" name="setUp" finished-at="2019-08-29T17:21:30Z" duration-ms="4494" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:43:06Z" name="setUp" finished-at="2019-08-29T17:43:11Z" duration-ms="4751" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="browsePageLinksTest()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:21:30Z" name="browsePageLinksTest" finished-at="2019-08-29T17:24:05Z" depends-on-methods="ca.gc.pch.test.nomenclature.testcases.BrowsePageTest.languageToggleFRTest" duration-ms="155055" status="FAIL">
+        <test-method signature="browsePageLinksTest()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:43:11Z" name="browsePageLinksTest" finished-at="2019-08-29T17:45:54Z" depends-on-methods="ca.gc.pch.test.nomenclature.testcases.BrowsePageTest.languageToggleFRTest" duration-ms="162862" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[ERROR: Found Broken Links expected [false] but found [true]]]>
@@ -186,7 +186,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 at org.testng.Assert.fail(Assert.java:96)
 at org.testng.Assert.failNotEquals(Assert.java:776)
 at org.testng.Assert.assertFalse(Assert.java:65)
-at ca.gc.pch.test.nomenclature.testcases.BrowsePageTest.browsePageLinksTest(BrowsePageTest.java:182)
+at ca.gc.pch.test.nomenclature.testcases.BrowsePageTest.browsePageLinksTest(BrowsePageTest.java:188)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -218,79 +218,79 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browsePageLinksTest -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:24:05Z" name="cleanUp" finished-at="2019-08-29T17:24:06Z" duration-ms="1081" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:45:54Z" name="cleanUp" finished-at="2019-08-29T17:45:55Z" duration-ms="1286" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:24:06Z" name="setUp" finished-at="2019-08-29T17:24:12Z" duration-ms="5203" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:45:55Z" name="setUp" finished-at="2019-08-29T17:46:00Z" duration-ms="4895" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="browsePageTitleTest()[pri:1, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:24:12Z" name="browsePageTitleTest" finished-at="2019-08-29T17:24:12Z" duration-ms="9" status="PASS">
+        <test-method signature="browsePageTitleTest()[pri:1, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:46:00Z" name="browsePageTitleTest" finished-at="2019-08-29T17:46:00Z" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browsePageTitleTest -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:24:12Z" name="cleanUp" finished-at="2019-08-29T17:24:13Z" duration-ms="969" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:46:00Z" name="cleanUp" finished-at="2019-08-29T17:46:01Z" duration-ms="944" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:24:13Z" name="setUp" finished-at="2019-08-29T17:24:17Z" duration-ms="4404" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:46:01Z" name="setUp" finished-at="2019-08-29T17:46:05Z" duration-ms="4343" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="browsePageDefaultLanguageTest()[pri:2, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:24:17Z" name="browsePageDefaultLanguageTest" finished-at="2019-08-29T17:24:17Z" duration-ms="68" status="PASS">
+        <test-method signature="browsePageDefaultLanguageTest()[pri:2, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:46:05Z" name="browsePageDefaultLanguageTest" finished-at="2019-08-29T17:46:06Z" duration-ms="67" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browsePageDefaultLanguageTest -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:24:17Z" name="cleanUp" finished-at="2019-08-29T17:24:18Z" duration-ms="986" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:46:06Z" name="cleanUp" finished-at="2019-08-29T17:46:07Z" duration-ms="1014" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:24:18Z" name="setUp" finished-at="2019-08-29T17:24:22Z" duration-ms="4382" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:46:07Z" name="setUp" finished-at="2019-08-29T17:46:11Z" duration-ms="4282" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="browsePageDefaultTermOrderTest()[pri:3, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:24:22Z" name="browsePageDefaultTermOrderTest" finished-at="2019-08-29T17:24:22Z" depends-on-methods="ca.gc.pch.test.nomenclature.testcases.BrowsePageTest.browsePageDefaultLanguageTest" duration-ms="51" status="PASS">
+        <test-method signature="browsePageDefaultTermOrderTest()[pri:3, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:46:11Z" name="browsePageDefaultTermOrderTest" finished-at="2019-08-29T17:46:11Z" depends-on-methods="ca.gc.pch.test.nomenclature.testcases.BrowsePageTest.browsePageDefaultLanguageTest" duration-ms="68" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browsePageDefaultTermOrderTest -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:24:22Z" name="cleanUp" finished-at="2019-08-29T17:24:23Z" duration-ms="969" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:46:11Z" name="cleanUp" finished-at="2019-08-29T17:46:12Z" duration-ms="1126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:24:23Z" name="setUp" finished-at="2019-08-29T17:24:28Z" duration-ms="4448" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:46:12Z" name="setUp" finished-at="2019-08-29T17:46:16Z" duration-ms="4102" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="browsePageDefaultLinguisticVariantTest()[pri:4, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:24:28Z" name="browsePageDefaultLinguisticVariantTest" finished-at="2019-08-29T17:24:28Z" depends-on-methods="ca.gc.pch.test.nomenclature.testcases.BrowsePageTest.browsePageDefaultLanguageTest" duration-ms="71" status="PASS">
+        <test-method signature="browsePageDefaultLinguisticVariantTest()[pri:4, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:46:16Z" name="browsePageDefaultLinguisticVariantTest" finished-at="2019-08-29T17:46:16Z" depends-on-methods="ca.gc.pch.test.nomenclature.testcases.BrowsePageTest.browsePageDefaultLanguageTest" duration-ms="55" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browsePageDefaultLinguisticVariantTest -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:24:28Z" name="cleanUp" finished-at="2019-08-29T17:24:29Z" duration-ms="973" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:46:16Z" name="cleanUp" finished-at="2019-08-29T17:46:17Z" duration-ms="885" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:24:29Z" name="setUp" finished-at="2019-08-29T17:24:33Z" duration-ms="4202" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:46:17Z" name="setUp" finished-at="2019-08-29T17:46:22Z" duration-ms="5143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="categoriesOrder()[pri:5, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:24:33Z" name="categoriesOrder" finished-at="2019-08-29T17:24:33Z" duration-ms="341" status="PASS">
+        <test-method signature="categoriesOrder()[pri:5, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:46:22Z" name="categoriesOrder" finished-at="2019-08-29T17:46:23Z" duration-ms="389" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- categoriesOrder -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:24:33Z" name="cleanUp" finished-at="2019-08-29T17:24:34Z" duration-ms="971" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:46:23Z" name="cleanUp" finished-at="2019-08-29T17:46:24Z" duration-ms="964" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:24:34Z" name="setUp" finished-at="2019-08-29T17:24:39Z" duration-ms="4510" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:46:24Z" name="setUp" finished-at="2019-08-29T17:46:28Z" duration-ms="4525" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="subTreeOrder()[pri:6, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:24:39Z" name="subTreeOrder" finished-at="2019-08-29T17:24:42Z" duration-ms="2845" status="PASS">
+        <test-method signature="subTreeOrder()[pri:6, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:46:28Z" name="subTreeOrder" finished-at="2019-08-29T17:46:31Z" duration-ms="2606" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subTreeOrder -->
-        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:24:42Z" name="cleanUp" finished-at="2019-08-29T17:24:43Z" duration-ms="981" status="PASS">
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ca.gc.pch.test.nomenclature.testcases.BrowsePageTest@2a32de6c]" started-at="2019-08-29T17:46:31Z" name="cleanUp" finished-at="2019-08-29T17:46:32Z" duration-ms="940" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
