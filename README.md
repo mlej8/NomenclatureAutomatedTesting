@@ -35,23 +35,24 @@ Page Object Model is also called Page Chaining Model, because each of the pages 
 
 #### Layer 1: Base Layer (TestBase.java)
 This class is the parent class of all layers (PageLibrary and TestNG) in the Framework.  
+
 All the classes in Page and Test Packages extend TestBase.java  
+
 TestBase.java contains all the initialization steps i.e. the WebDriver, configurations (properties), implicit/explicit waits, pageLoadTimeOut, actions, maximize_window(), deleteAllCookies(), get(url), etc. These objects are all static, therefore the same WebDriver, waits, actions, properties file will be shared among all pages, tests and utilities (code reused at its full potential).
 
-This class define the common (repeated) properties/methods ONCE which will be used by all of your pages and your test classes.   
-In fact, every class in the framework needs to set up a WebDriver, implicit/explicit wait, maximize_window(), get(url), etc.  
-We use the concept of INHERITANCE to pass all those methods/properties from the BASE CLASS to all the CHILD CLASSES.
-
+   
+In fact, every class in the framework needs to set up a WebDriver, implicit/explicit wait, maximize_window(), get(url), etc. The testbase class allows to define the common (repeated) properties/methods only ONCE which will avoid having to initialize everything in each class. We use the concept of INHERITANCE to pass all those methods/properties from the BASE CLASS to all the CHILD CLASSES.
 
 THIS LAYER IS USED TO AVOID DUPLICATE CODE (i.e. avoid WebDriver driver = new ChromeDriver in EVERY PAGE).
 
 #### Layer 2: Page Layer (PageLibrary)
-For UI applications, you need classes that interact with the pages of the system.    
+For UI applications, you need classes that interact with the pages of the system. 
+
 These classes live within the Framework PAGE LIBRARY LAYER.  
 
-It is IMPORTANT to operate at HIGH LEVEL OF ABSTRACTION: Login(), ResetPassword() and ToggleRememberMe() NOT InputUsername(), InputPassword(), etc.  
-The functions should represent the FUNCTIONALITY of the page from the user's perspective.  
-The tests are going to use those functions
+It is IMPORTANT to operate at HIGH LEVEL OF ABSTRACTION: Login(), ResetPassword() and ToggleRememberMe() NOT InputUsername(), InputPassword(), etc. 
+
+The functions should represent the FUNCTIONALITY of the page from the user's perspective and the tests are going to use those functions
 
 1. Create a SEPARATE JAVA CLASS for every page in the web application
 2. Define WEBELEMENT for each page (i.e. submit button, login button, search box, etc.) also called OR -- Object repository, collection of all WebElements  
